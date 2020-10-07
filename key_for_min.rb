@@ -7,13 +7,13 @@ def key_for_min_value(name_hash)
     
     min_value= 
     
-    if name_hash[key] < min_value
+    if name_hash[key] < min_value[key]
       
-      min_value = name_hash[hash]
+      min_value = name_hash[0]
       
     end
     
-    min_value
+    min_value[value]
   
  end 
 
