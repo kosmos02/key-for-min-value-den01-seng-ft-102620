@@ -9,19 +9,23 @@ def key_for_min_value(name_hash)
   
   min_value= 10000000
   
+  lowest_key = nil
+  
   name_hash.each do |key, value|
     
     binding.pry 
     
      
     
-    if name_hash[key] < min_value[key]
+    if value  < min_value
       
-      min_value = name_hash[key]
+      min_value = value 
+      
+      lowest_key = key 
       
     end
     
-    min_value[value]
+    name_hash[min_value]
   
  end 
 
