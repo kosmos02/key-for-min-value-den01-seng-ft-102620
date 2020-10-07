@@ -11,6 +11,7 @@ def key_for_min_value(name_hash)
   
   lowest_key = nil
   
+  
   name_hash.each do |key, value|
     
     binding.pry 
@@ -25,7 +26,7 @@ def key_for_min_value(name_hash)
       
     end
     
-    name_hash[min_value]
+    lowest_key
   
  end 
 
